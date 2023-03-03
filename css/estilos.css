@@ -1,0 +1,26 @@
+main{
+    padding-top: 90px;
+}
+nav div{
+    background-color: #0a2e57;
+}
+nav div div ul li span{
+    color: aliceblue;
+}
+
+.nav-link span:hover{
+    color: #185caa;
+}
+
+.fotoPerfil{
+    border-radius: 50%;
+}
+.fotoPerfil:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width: 992px){
+    .nav-link:hover{
+        transform: scale(1.3);
+    }
+}
