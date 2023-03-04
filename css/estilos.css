@@ -27,6 +27,11 @@ nav div div ul li span{
     vertical-align: middle;
     color: #0a2e57;
 }
+.iconoContacto{
+    font-size: 80px;
+    vertical-align: middle;
+    color: aliceblue;
+}
 h2{
     margin: 50px;
     font-size: 250%;
@@ -36,6 +41,22 @@ h2{
     font-size: 36px;
     padding-left: 12px;
     color: #0a2e57;
+    font-weight: 400;
+
+}
+.infoContacto{
+    font-size: 36px;
+    padding-left: 24px;
+    color: aliceblue;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+.subtitulo{
+    font-size: 24px;
+    padding-left: 12px;
+    color: gray;
+    font-weight: 200;
 
 }
 .listaConocimientos div{
@@ -44,6 +65,21 @@ h2{
 }
 .segundaFila{
     margin-top: 90px;
+}
+.listaDatosAcademicos div ul{
+    list-style: none;
+}
+.listaDatosAcademicos div ul li{
+    margin-top: 16px;
+}
+#contacto{
+    background-color: #0a2e57;
+}
+#contacto div h2{
+    color: aliceblue;
+}
+#contacto div h2{
+    color: aliceblue;
 }
 
 @media (min-width: 992px){
