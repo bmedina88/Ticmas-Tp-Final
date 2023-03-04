@@ -11,9 +11,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-body-tertiary pt-0">
+        <nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-body-tertiary pt-0 pb-0">
             <div class="container-fluid">
-              <a class="navbar-brand fotoPerfil" href="#"><img class="fotoPerfil" src="https://randomuser.me/api/portraits/thumb/men/75.jpg" alt="Foto de perfil"></a>
+              <a id="fotoPerfilPequeña" class="navbar-brand fotoPerfil" href="#"><img class="fotoPerfil" src="https://randomuser.me/api/portraits/thumb/men/75.jpg" alt="Foto de perfil"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#desplegarNavbar">
                 <span class="navbar-toggler-icon text-light"></span>
               </button>
@@ -36,24 +36,33 @@
             </div>
         </nav>
 
+        <div class="sobreMi container-fluid">
+          <div class="col-4">
+            <img class="fotoPerfil mt-5" src="https://randomuser.me/api/portraits/men/75.jpg" alt="Foto de perfil">
+          
+            <h2>Sobre mí</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pharetra dolor, posuere 
+              finibus mi. Cras sodales euismod viverra. Nullam tempor neque ac est venenatis cursus. Nunc mol
+              lis purus rhoncus lectus aliquam, a eleifend quam interdum. Vestibulum dolor neque, malesuada ne
+              c ipsum et.</p>
+              <h2>Datos</h2>
+              <ul class="container listaConocimientos">
+                <li>Nombre: <span class="nombre"></span></li>
+                <li>Apellido: <span class="apellido"></span></li>
+                <li>Género: <span class="genero"></span></li>
+                <li>Edad: <span class="edad"></span></li>
 
+              </ul>
+
+          </div>
+
+        </div>
 
     </header>
     <main>
 
       <section id="conocimientos">
-        <div id="container" style="position:relative;">
-          <div id="div1" style="position:absolute; top:0; left:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pharetra dolor, posuere finibus mi. Cras sodales euismod viverra. Nullam tempor neque ac est venenatis cursus. Nunc mollis purus rhoncus lectus aliquam, a eleifend quam interdum. Vestibulum dolor neque, malesuada nec ipsum et, faucibus pretium metus. Integer lacus purus, mattis eu nisi in, bibendum malesuada velit. Quisque non ante sed tellus pulvinar auctor. Ut sapien neque, accumsan in tincidunt et, gravida a eros. Quisque porta, libero a lobortis condimentum, ligula est convallis purus, eget iaculis urna justo quis neque. Cras gravida pharetra diam sit amet porta. Donec ac mi laoreet arcu bibendum auctor quis nec neque. Sed vitae nunc eget arcu tristique blandit. Nullam dui massa, ultricies eget efficitur eget, pellentesque at nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque ultricies at velit eu efficitur.
 
-            Donec ligula purus, suscipit quis eleifend eget, ornare blandit mi. Etiam molestie diam at odio fringilla interdum. Sed sed semper nibh. Maecenas euismod nulla non quam scelerisque, id mollis ligula efficitur. Vivamus fringilla, nisl viverra bibendum viverra, eros libero hendrerit dui, sed pulvinar lorem quam sed odio. Duis mattis leo at nibh tincidunt sollicitudin. Suspendisse dictum, augue vel accumsan eleifend, erat dolor semper tellus, eu condimentum eros turpis feugiat diam. Etiam ultrices, ligula et mattis malesuada, neque nunc dapibus quam, eu ornare justo magna ut sem. Maecenas a ante sagittis, viverra dui et, cursus felis. Nunc eu dolor vel quam sagittis efficitur. Cras ac enim eu metus elementum faucibus. Pellentesque ac massa nunc. Aliquam pretium augue sit amet massa placerat, in efficitur lacus congue.
-            
-            Nulla luctus tortor a nibh pharetra, id malesuada ligula commodo. Aenean euismod quam sed odio lobortis viverra. Etiam sollicitudin mauris et elit pellentesque tristique. Duis eleifend eros et ex auctor, in malesuada odio posuere. Integer orci lacus, blandit in eros nec, ultrices posuere diam. Pellentesque auctor, leo in sollicitudin condimentum, sapien arcu blandit libero, id egestas ante ante quis urna. Nulla augue massa, placerat sed condimentum eu, lobortis eu odio. Nunc facilisis eu nisl quis elementum.
-            
-            Suspendisse potenti. Aliquam tempor congue mauris, sed placerat risus sagittis vel. Pellentesque ut consequat urna, non efficitur libero. Morbi ornare tincidunt volutpat. Praesent vulputate dignissim ante, semper vulputate justo gravida non. In a velit varius, pulvinar felis et, malesuada dui. Phasellus ornare commodo vehicula. Cras eros ante, ornare eu vulputate non, scelerisque sit amet erat. Aliquam aliquam, nibh vel ullamcorper placerat, mauris dolor aliquet dolor, vel aliquam nunc libero in odio. In id dictum massa. In in nisi a sapien viverra porta semper elementum arcu. Proin at nisl eu purus convallis convallis. Praesent nec erat eget augue facilisis fringilla ut at ex.
-            
-            Vestibulum tellus est, aliquet accumsan sollicitudin tempus, aliquam id ipsum. Quisque vitae convallis turpis. Integer placerat urna vitae lorem bibendum egestas ac vel elit. Morbi mauris enim, rutrum at mattis volutpat, elementum sed tellus. Sed cursus suscipit risus, at ornare nibh convallis non. Vestibulum condimentum, urna et cursus posuere, nibh nisl vestibulum nisi, vitae vulputate lorem risus sed turpis. Duis nec nibh vel augue maximus fringilla id eu eros. Praesent elit nunc, laoreet eget dapibus vitae, pulvinar quis dolor. Maecenas consectetur lacus vel sem rutrum mattis.</div>
-          <div id="div2" style="position:absolute; top:0; left:0;">zzzzzzzz</div>
-        </div>
         <div class="container">
           <h2 class="text-center">Conocimientos</h2>
           <div class="row">
@@ -234,13 +243,13 @@
               <div class="col">
                 <div class="d-inline-block">
                   <i class="fa-solid fa-phone iconoContacto"></i>
-                  <span class="infoContacto">+54 0 11 11111111</span>
+                  <span class="infoContacto numeroTelefono">+54 0 11 11111111</span>
                 </div>
               </div>
               <div class="col">
                 <div class="d-inline-block">
                   <i class="fa-solid fa-envelope iconoContacto"></i>
-                  <span class="infoContacto">beybrasdjaso@gmail.com</span>
+                  <span class="infoContacto correo">beybrasdjaso@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -248,7 +257,7 @@
               <div class="col">
                 <div class="d-inline-block">
                   <i class="fa-solid fa-location-dot iconoContacto"></i>
-                  <span class="infoContacto">lorempasdmsafasfmaspfasp</span>
+                  <span class="infoContacto direccion">lorempasdmsafasfmaspfasp</span>
                 </div>
               </div>
               <div class="col">

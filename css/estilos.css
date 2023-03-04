@@ -1,6 +1,9 @@
 body{
     font-size: 110%;
 }
+nav{
+    border-bottom: #185caa solid 1px;
+}
 section{
     padding-top: 130px;
 }
@@ -81,7 +84,22 @@ h2{
 #contacto div h2{
     color: aliceblue;
 }
-
+.sobreMi div{
+    padding: 18px;
+    background-color: #0a2e57;
+    position:relative;
+    position:absolute; top:90px; left:0;
+    color: aliceblue;
+}
+.sobreMi h2{
+    color: aliceblue;
+}
+.sobreMi img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 @media (min-width: 992px){
     .nav-link:hover{
         transform: scale(1.3);
