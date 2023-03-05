@@ -1,5 +1,6 @@
 body{
     font-size: 110%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav{
     border-bottom: #185caa solid 1px;
@@ -13,6 +14,7 @@ nav div{
 }
 nav div div ul li span{
     color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .nav-link span:hover{
@@ -39,12 +41,14 @@ h2{
     margin: 50px;
     font-size: 250%;
     color: #0a2e57;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .tituloIcono{
     font-size: 36px;
     padding-left: 12px;
     color: #0a2e57;
     font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .infoContacto{
@@ -84,11 +88,15 @@ h2{
 #contacto div h2{
     color: aliceblue;
 }
+.sobreMi{
+
+}
 .sobreMi div{
     padding: 18px;
     background-color: #0a2e57;
-    position:relative;
-    position:absolute; top:90px; left:0;
+    position:absolute; 
+    top:90px; 
+    left:0;
     color: aliceblue;
 }
 .sobreMi h2{

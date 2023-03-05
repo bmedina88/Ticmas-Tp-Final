@@ -15,6 +15,7 @@ $.ajax({
     reemplazarDatos(data);
   }
 });
+
 function reemplazarDatos(data){
   $(".nombre").text(data.results[0].name.first);
   $(".apellido").text(data.results[0].name.last);
@@ -26,4 +27,5 @@ function reemplazarDatos(data){
   $(".numeroTelefono").text(data.results[0].cell);
   $(".correo").text(data.results[0].email);
   $(".direccion").text(data.results[0].location.street.name + " "+ data.results[0].location.street.number);
+  $(".nombreCompleto").append(data.results[0].name.first +" "+ data.results[0].name.last);
 }
